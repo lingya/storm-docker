@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER viki-data data@viki.com
+MAINTAINER test
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise universe" >> /etc/apt/sources.list
 RUN echo "deb http://mirrors.ccs.neu.edu/ubuntu precise universe" >> /etc/apt/sources.list
